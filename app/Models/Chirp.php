@@ -24,4 +24,8 @@ class Chirp extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function helloWorld () {
+        return 'Hello World';
+    }
+
 }
